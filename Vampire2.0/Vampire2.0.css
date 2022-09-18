@@ -1,0 +1,95 @@
+.header {
+
+    width: 60%;
+    float: left;
+    max-height: 200px;
+}
+h1 {
+    font-family: "Square Peg";
+    color: #9f0b13;
+    font-size: 120px;
+    text-align: left;
+    padding-left: 40px;
+    margin:auto;
+}
+h3 {
+    font-family: "Special Elite";
+    color: #5b060b;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    margin: auto;
+    
+    }
+h2, h3, h4 {
+
+    color: #9f0b13;
+    font-family: "Special Elite";
+}
+h5 {
+    color: #9f0b13;
+    font-family: "Special Elite";
+}
+main {
+    margin: 15px;
+    padding-top: 60px;
+   
+}
+section {
+    background-image: url('deskbackground.JPG');
+    background-repeat:repeat;
+    background-size:cover;
+    
+}
+.button {
+   display: inline-flex;
+   flex-grow: inherit;
+   max-width: 100px;
+   max-height: 100px;
+}
+
+.scott, .tyler {
+    background-color: #5b060b;
+    color: #999;
+    padding: 20px;
+    font-family: 'Special Elite';
+    font-size: 22px;
+}
+
+.kurt, .mario {
+    background-color: #9f0b13;
+    color: #999;
+    padding: 20px;
+    font-family: 'Special Elite';
+    font-size: 22px;
+}
+p {
+    text-align: center;
+    font-family: 'Special Elite';
+    line-height: 1.5em;
+}
+.page {
+    border: 1px solid #000000;
+    display: flexbox;
+    margin: 10px;
+    padding: 25px;
+
+    flex-direction: row;
+    width:fit-content;
+    height: fit-content;
+    font-family: 'Special Elite';
+    font-size: 16px;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+
+}
+footer {
+    font-family: 'Special Elite';
+    color: #5b060b;
+    float: left;
+}
+a {
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: auto;
+}
