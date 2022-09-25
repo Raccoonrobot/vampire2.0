@@ -19,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 );
 
 function App() {
+  return null
   return (
     <BrowserRouter>
       <Routes>

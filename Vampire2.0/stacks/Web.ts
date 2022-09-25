@@ -4,7 +4,7 @@ export function Web({ stack }: StackContext) {
 
   const site = new ViteStaticSite(stack, "site", {
     path: "web",
-    buildCommand: "npm run build",
+    buildCommand: "npm run build"
   });
 
   stack.addOutputs({
