@@ -7,7 +7,7 @@ interface SectionProps {
     title: string
 }
 function Section({month, title}: SectionProps) {
-    return <Grid item xs={4}>
+    return <Grid item xs={12} sm={6} md={4} lg={4} xl={4}>
         <div className="page" id={month}>
             <h2>{title}</h2>
             <h4>These documents are Classified</h4>
